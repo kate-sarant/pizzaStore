@@ -32,7 +32,7 @@ For this site I used:
 
 ### Screenshot
 
-![menu](./pizzaPhotos/PizzaMenu.png)
+![menu](assets/pizzaPhotos/p2.png)
 
 
 ## Author
