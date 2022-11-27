@@ -1,0 +1,193 @@
+
+header{
+box-shadow: $header-shadow;
+background-color:#ffffffe0;
+border-radius: 12px;
+
+li{
+  list-style: none;
+}
+  .container{
+    display: inline-flex;
+    align-items: center;
+
+.orderBasket{
+  position: relative;
+  top: 114px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 150px;
+  height: 150px;
+  text-align: right;
+  display: grid;
+  background-color: $light-color;
+em{
+  font-size: 25px;
+  position: relative;
+  top: -22px;
+  }
+}
+ .orderBasket{
+   font-size: calc(1em + 5px);
+   width: 50px;
+   height: auto;
+   p{
+     font-size: calc(1em + 3px);
+
+       background-color: white;
+   }
+   i{
+     position: relative;
+    top: -11px;
+   }
+ }
+.orderBasket:hover{
+  width: 105px;
+  height: 106px;
+    background-color: white;
+
+
+}
+  p{
+   font-size: calc(3em + 5px);
+   margin: 1%;
+   }
+
+  #logo{
+        display: flex;
+        color:black;
+        list-style: none;
+        font-family: 'Notable', sans-serif;
+        }
+        #logo li:nth-child(1),#logo li:nth-child(2){
+          background-color:green;
+            box-shadow:$shadow-stack;
+            padding: 2%;
+            color: $white;
+        }
+        #logo li:nth-child(3),#logo li:nth-child(4){
+          background-color:white;
+          box-shadow:$shadow-stack;
+          padding: 2%;
+        }
+        #logo li:nth-child(5),#logo li:nth-child(6){
+          background-color: red;
+          box-shadow:$shadow-stack;
+          padding: 2%;
+          color:$white;
+        }
+        li:nth-child(6){
+          margin-right: 4%;
+        }
+
+
+  }
+//---- Order now
+div{
+
+   padding-top: 2%;
+   list-style: none
+}
+.headerContainer{
+
+  display: grid;
+grid-template-columns: auto auto;
+justify-content:inherit ;
+position:relative;
+top: 0;
+}
+.contactUs {
+
+z-index: 3;
+position: relative;
+float: right;
+bottom: -98px;
+display: flex;
+
+
+#contact_us{
+    font-size: 22px;
+}
+
+}
+#delevery-icon{
+width: 30px;
+float: right;
+margin:11px;
+}
+.popUp-form{
+    z-index: 12;
+display:none;
+  align-items: center;
+  position: relative;
+  top: 37px;
+  float: right;
+  justify-content: space-evenly;
+  background: #ffffff6e;
+  padding: 4px;
+  border-radius: 17px;
+  margin-bottom: 16px;
+
+  form{
+    position: relative;
+    top: 19px;
+  }
+
+}
+}
+.order {
+      text-align: justify;
+        font-size: 27px;
+        padding-top: 12px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 0;
+        margin-left: 12px;
+
+
+      .btn{
+        background-color: red ;
+      }
+}
+#order_now{
+
+      font-size: 22px;
+      letter-spacing: 1px;
+      padding: 11px;
+      border-radius: 10px;
+      background-color: red;
+
+}
+
+.place{
+  padding-left: 12px;
+
+
+}
+#phone{
+  display: flex;
+  position: relative;
+  top: 21px;
+  font-size: 22px;
+  align-items: baseline;
+
+}
+
+// _________________
+// bootstarp
+// _________________
+
+.bi-telephone-fill{
+  float: left;
+  font-size: 27px;
+  margin: 4px 9px;
+
+}
+// menu page
+.bi-house-heart-fill{
+font-size: 32px;
+}
+.bi-house-heart-fill:hover{
+  font-size: 34px;
+
+}

@@ -1,0 +1,37 @@
+@media only screen and (max-width:850px){
+
+body{
+
+  .container{
+    text-align: center;
+    .order  {
+          .OrderNow{
+    width: fit-content;
+    font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    }
+  }
+  main{
+      .menu{
+        .btn{
+         bottom: 37vh;
+       }
+      }
+  }
+}
+
+.row{
+  grid-template-columns: auto ;
+      justify-content: space-evenly !important;
+  .menucart{
+      width: 285px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+
+  }
+}
+
+}

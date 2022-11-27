@@ -1,0 +1,96 @@
+@import 'config';
+
+
+*{
+  margin:0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+
+body{
+  margin: 0 auto;
+  max-width:850px;
+  min-width: 375px;
+  background-color: $light-color;
+  font-family: $font-stack;
+  line-height: 1.6;
+  background-image: url("../pizzas/bgPhoto.jpeg");
+  background: cover repeat;
+
+
+a{
+  color:$bgBlack;
+}
+a:hover{
+  color:$bgBlack;
+}
+
+#myVideo {
+position: inherit;
+  right: 0;
+  bottom: 0;
+  max-width: 850px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -200;
+}
+.wrapper{
+  position: relative;
+      .menu{
+          position: relative;
+          bottom: 190px;
+
+
+      img{
+
+          max-width: 100%;
+          position: relative;
+          top: 29vh;
+          border-radius: 12px;
+          z-index: -1;
+      }
+
+    .btn{
+    background :$green-btn ;
+    color: $white;
+    position: relative;
+    width: 14vw;
+    height: 10vh;
+    bottom: 60vh;
+    align-items: baseline;
+    }
+    .btn:active{
+    border: solid thin green;
+
+    }
+    .btn:hover{
+      width: 13vw;
+      height: 9vh;
+
+    }
+  }
+
+  }
+.Video{
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+#VideoTag{
+
+  max-width: 100%;
+
+}
+}
+
+
+
+}
+
+@import 'menu';
+@import 'header';
+@import 'footer';
+@import 'mobile';
+@import 'orderPage';
