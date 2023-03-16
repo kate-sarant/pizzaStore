@@ -74,11 +74,6 @@ var menucart = document.querySelectorAll(".menucart");
 var btns = document.querySelectorAll(".OrderNow");
 
 
-
-
-
-
-
 let filter = 'all';
 let choice = 'null';
 checkboxies.forEach((cboxies, i) => {
